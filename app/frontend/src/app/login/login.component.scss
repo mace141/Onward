@@ -1,0 +1,65 @@
+@import "../../assets/colors.scss";
+
+div {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  display: block;
+  margin-bottom: 50px;
+  font-size: 64px;
+  font-weight: 600;
+  color: $jade;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 30px;
+  border: 1px solid $lightgray;
+  border-radius: 5px;
+
+  label {
+    color: $gray;
+    margin-bottom: 5px;
+  }
+
+  header {
+    margin: 0 auto 20px auto;
+    font-size: 32px;
+    color: $emerald;
+  }
+
+  input {
+    height: 48px;
+    margin-bottom: 20px;
+    border: 1px solid $lightgray;
+    border-radius: 5px;
+  }
+
+  button {
+    height: 48px;
+    width: 100%;
+    border: 1px solid $lightgray;
+    border-radius: 5px;
+    background: $emerald;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  a {
+    margin-top: 10px;
+    color: $emerald;
+    font-weight: 600;
+    text-align: center;
+  }
+}
